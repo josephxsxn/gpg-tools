@@ -3,7 +3,7 @@
 if [ $# -ne 2 ]
 then
         echo "Please pass as CLI arguments:"
-	echo "sh blastgpgkeys.sh GPGKEY PGPSERVERSFILE"
+	echo "sh gt-blastgpgkeys.sh GPGKEY PGPSERVERSFILE"
 	echo "GPGKEY is expected to be a valid KEYID" 
 	echo "PGPSERVERFILE is a line by line file of PGP Key Servers"
 	exit 1
